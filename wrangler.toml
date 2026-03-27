@@ -1,4 +1,4 @@
-name = "wematat"
+name = "wemetat"
 main = "functions/_worker.ts"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
@@ -8,5 +8,5 @@ directory = "./public"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "wematat"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_name = "wemetatapp"
+database_id = "6fde8bcf-8ab2-4a5c-950e-1f9dbe06eb8a"
