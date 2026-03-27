@@ -1,11 +1,11 @@
 {
-  "name": "network-cadence",
+  "name": "wematat",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "db:migrate": "wrangler d1 execute network-cadence --file=migrations/0001_initial.sql"
+    "db:migrate": "wrangler d1 execute wematat --file=migrations/0001_initial.sql"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.0.0",

@@ -1,5 +1,5 @@
 -- Network Cadence — Initial Schema
--- Run with: wrangler d1 execute network-cadence --file=migrations/0001_initial.sql
+-- Run with: wrangler d1 execute wematat --file=migrations/0001_initial.sql
 
 CREATE TABLE IF NOT EXISTS contacts (
   id TEXT PRIMARY KEY,
