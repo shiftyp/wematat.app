@@ -1,0 +1,12 @@
+name = "network-cadence"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "network-cadence"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[env.production]
+name = "network-cadence"
