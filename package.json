@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "db:migrate": "wrangler d1 execute wematat --file=migrations/0001_initial.sql"
+    "dev:ui": "vite",
+    "dev": "vite build --watch & wrangler dev",
+    "build": "vite build",
+    "deploy": "vite build && wrangler deploy",
+    "db:migrate": "wrangler d1 execute wemetat --file=migrations/0001_initial.sql"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.3",
     "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
